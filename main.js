@@ -44,9 +44,13 @@ canvas.addEventListener('mousewheel', function(e){
 	 if(focalLength <=150){
 		flame.style.borderColor = "#ffffff transparent transparent transparent"
 		flame2.style.borderColor = "#ffffff transparent transparent transparent"
+		flame.style.animation = "burn .1s infinite linear"
+		flame2.style.animation = "burn .1s infinite linear"
 	 }else{
 		flame.style.borderColor = "#e9e789 transparent transparent transparent"
 		flame2.style.borderColor = "#e9e789 transparent transparent transparent"
+		flame.style.animation = "burn .3s infinite linear"
+		flame2.style.animation = "burn .3s infinite linear"
 	 }
 
    if(focalLength >= innerWidth){
