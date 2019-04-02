@@ -14,9 +14,9 @@ canvas {
 #position{
   position: absolute;
   top: 60%;
-  left: 40%; 
+  left: 50%; 
   z-index: 1;
-  transform: rotate(25deg);
+  transform: rotate(30deg);
 }
 
 
@@ -119,3 +119,13 @@ z-index: 1;
   75% {border-width: 30px 8px 0  8px;}
   100% {border-width: 20px 8px 0 8px;}
  }
+
+ @media (max-width: 769px) {
+  #position{
+    left: 40%; 
+    z-index: 1;
+    transform: rotate(10deg);
+  }
+ }
+
+
