@@ -6,7 +6,7 @@ const flame2 = document.getElementById('tail2');
 const innerWidth = window.innerWidth,
     innerHeight = window.innerHeight,
     radius = 1,
-    numStars = 400,
+    numStars = 800,
     starX_dir = 0,
 		starY_dir = 0,
     TWO_PI = Math.PI*2;
@@ -42,8 +42,8 @@ canvas.addEventListener('mousewheel', function(e){
 	 }
 
 	 if(focalLength <=150){
-		flame.style.borderColor = "#fffed0 transparent transparent transparent"
-		flame2.style.borderColor = "#fffed0 transparent transparent transparent"
+		flame.style.borderColor = "#ffffff transparent transparent transparent"
+		flame2.style.borderColor = "#ffffff transparent transparent transparent"
 	 }else{
 		flame.style.borderColor = "#e9e789 transparent transparent transparent"
 		flame2.style.borderColor = "#e9e789 transparent transparent transparent"
